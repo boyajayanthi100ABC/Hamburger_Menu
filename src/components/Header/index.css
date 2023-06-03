@@ -1,0 +1,88 @@
+/* Write your CSS here */
+
+// Write your code here
+
+.nav-heading {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 0px #ffffff;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 90vw;
+}
+
+.logo-website {
+  width: 40px;
+  height: 40px;
+}
+
+.ham-icon-button {
+  height: 35px;
+  width: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vh;
+  align-items: center;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  flex-grow: 1;
+}
+
+.close-btn {
+  background-color: transparent;
+  align-self: flex-end;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  outline: pointer;
+  border: none;
+  margin-top: 30px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0pax;
+  flex-grow: 1;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 34px;
+  color: #1e293b;
+}
+
+.nav-content {
+  font=weight: 400;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin: 0px;
+  line-height: 1.4;
+}

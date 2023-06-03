@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.home-con {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home-img-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  flex-grow: 1;
+}
+
+.mobile-hm-img {
+  width: 90vw;
+}
+
+.desktop-hm-img {
+  width: 100vw;
+}

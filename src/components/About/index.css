@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  flex-grow: 1;
+}
+
+.mobile-img {
+  width: 82vw;
+}
+
+.desktop-img {
+  width: 100vw;
+}
